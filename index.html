@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SMKA 1 Jakarta</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="w3-light-grey">
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width: 1400px">
+      <!-- The Grid -->
+      <div class="w3-row-padding">
+        <!-- Left Column -->
+        <div class="w3-third">
+          <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-display-container">
+              <img
+                src="data:image/jpeg;base64,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"
+                style="width: 100%"
+                alt="Avatar"
+              />
+              <div class="w3-display-bottomleft w3-container w3-text-white">
+                <h2>Muhammad Naufal Riansyach</h2>
+              </div>
+            </div>
+            <div class="w3-container">
+              <p>
+                <i
+                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >Pelajar
+              </p>
+              <p>
+                <i
+                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >Jakarta, Indonesia
+              </p>
+              <p>
+                <i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >muhammadnaufalriansyach@gmail.com
+              </p>
+              <p>
+                <i
+                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >081291026149
+              </p>
+              <hr />
+
+              <p class="w3-large">
+                <b
+                  ><i
+                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"
+                  ></i
+                  >Skills</b
+                >
+              </p>
+              <p>Linux</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 70%"
+                >
+                  70%
+                </div>
+              </div>
+              <p>Jaringan</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 50%"
+                >
+                  <div class="w3-center w3-text-white">50%</div>
+                </div>
+              </div>
+              <p>Cloud Computing</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 50%"
+                >
+                  50%
+                </div>
+              </div>
+              <p>IOT (Arduino)</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  60%
+                </div>
+              </div>
+              <br />
+
+              <p class="w3-large w3-text-theme">
+                <b
+                  ><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i
+                  >Languages</b
+                >
+              </p>
+              <p>Indonesia</p>
+              <div class="w3-light-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-teal"
+                  style="height: 24px; width: 100%"
+                ></div>
+              </div>
+              <p>Sunda</p>
+              <div class="w3-light-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-teal"
+                  style="height: 24px; width: 70%"
+                ></div>
+              </div>
+              <p>Jawa</p>
+              <div class="w3-light-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-teal"
+                  style="height: 24px; width: 60%"
+                ></div>
+              </div>
+              <br />
+            </div>
+          </div>
+          <br />
+
+          <!-- End Left Column -->
+        </div>
+
+        <!-- Right Column -->
+        <div class="w3-twothird">
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i
+              >Pengalaman
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>Seminar AI 4 Youth (Orbit Future Academy)</b>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Agustus 2022
+                -
+                <span class="w3-tag w3-teal w3-round">Januari 2023</span>
+              </h6>
+              <p>
+                Mempelajari Tentang Artificial Intelligence yang diselenggarakan
+                oleh Orbit Future Academy
+              </p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>LKS Cloud Computing</b></h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i> Juli 2023
+              </h6>
+              <p>
+                Mempelajari tentang Amazon Web Service (AWS) dan mengenai
+                Front-end dan Back-end
+              </p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>Kelas Industri</b>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>September
+                2023
+              </h6>
+              <p>Mempelajari Devops dan melakukan pekerjaan seorang Devops</p>
+              <br />
+            </div>
+          </div>
+
+          <div class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i
+              >Pendidikan
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>SDN Jati Pulo 01 Pagi</b></h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2012-2018
+              </h6>
+              <p></p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>SMPN 93 Jakarta</b></h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2018-2021
+              </h6>
+              <p></p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>SMKN 1 jakarta</b></h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i
+                >2021-sekarang
+              </h6>
+              <p>Sistem Informatika Jaringan dan Aplikasi</p>
+              <br />
+            </div>
+          </div>
+
+          <!-- End Right Column -->
+        </div>
+
+        <!-- End Grid -->
+      </div>
+
+      <!-- End Page Container -->
+    </div>
+
+    <footer class="w3-container w3-teal w3-center w3-margin-top">
+      <p>Find me on social media.</p>
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p>
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
